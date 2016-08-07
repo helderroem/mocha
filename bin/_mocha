@@ -80,6 +80,7 @@ program
   .option('--check-leaks', 'check for global variable leaks')
   .option('--full-trace', 'display the full stack trace')
   .option('--compilers <ext>:<module>,...', 'use the given module(s) to compile files', list, [])
+  .option('--inspect', "enable the devtools inspector")
   .option('--debug-brk', "enable node's debugger breaking on the first line")
   .option('--globals <names>', 'allow the given comma-delimited global [names]', list, [])
   .option('--es_staging', 'enable all staged features')
